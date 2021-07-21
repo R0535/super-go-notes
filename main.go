@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strconv"
 	"time"
+	"github.com/R0535/super-go-notes"
 )
 
 // func main() {
@@ -47,4 +48,5 @@ func doSomething(c chan int){//a esta funcion que se convierte en rutina por [go
 	time.Sleep(3*time.Second)//espera 3 segundos [4]
 	fmt.Println("Done")//imprime que esta hecho		[5]
 	c <- 1 // Al canal que nos trajimos, le devuelve una senal con el valor de 1		[6]
+	main.HelloWorld()
 }

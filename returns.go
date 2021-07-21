@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/R0535/super-go-notes"
 )
 
 func sum(values ...int) int {
