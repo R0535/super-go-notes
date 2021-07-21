@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/R0535/super-go-notes"
 )
 
 func sum(values ...int) int {
@@ -26,6 +28,7 @@ func getValues(x int) (double int, triple int, quadruple int) {
 	return
 }
 func main() {
+	Utils.HelloWorld()
 	fmt.Println(sum(12, 13, 4, 5, 6))
 	printNames("Jose", "Eduardo")
 	fmt.Println(getValues(1))
